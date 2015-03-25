@@ -5,9 +5,14 @@
     "ocraig@rightpoint.com"
   ],
   "description": "Common styles for clearsight projects",
-  "main": "cs-common.less",
+  "main": [
+    "cs-common.less"
+  ],
   "license": "MIT",
   "private": true,
+  "dependencies": {
+    "bootstrap-less": "latest"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
