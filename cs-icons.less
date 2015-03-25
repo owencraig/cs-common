@@ -1,0 +1,583 @@
+@csicon-css-prefix: cs-icon;
+@csicon-font-location: '../fonts';
+@font-face {
+    font-family: 'cs-icons';
+    src:url('@{csicon-font-location}/cs-icons.eot?wgh6lx');
+    src:url('@{csicon-font-location}/cs-icons.eot?#iefixwgh6lx') format('embedded-opentype'),
+        url('@{csicon-font-location}/cs-icons.woff?wgh6lx') format('woff'),
+        url('@{csicon-font-location}/cs-icons.ttf?wgh6lx') format('truetype'),
+        url('@{csicon-font-location}/cs-icons.svg?wgh6lx#cs-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="@{csicon-css-prefix}"], [class*=" @{csicon-css-prefix}"], .@{csicon-css-prefix} {
+    font-family: 'cs-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@cs-icon-friends: "\c1";
+@cs-icon-speech: "\a8";
+@cs-icon-trash: "\59";
+@cs-icon-wifi: "\2db";
+@cs-icon-line-graph: "\20ab";
+@cs-icon-bar-chart: "\c6";
+@cs-icon-link: "\47";
+@cs-icon-flag: "\e7";
+@cs-icon-uniE749: "\43";
+@cs-icon-uniE763: "\42";
+@cs-icon-download: @cs-icon-uniE763;
+@cs-icon-uniE764: "\44";
+@cs-icon-uniE7E2: "\45";
+@cs-icon-uniE755: "\46";
+@cs-icon-uniE6AB: "\48";
+@cs-icon-uniE724: "\49";
+@cs-icon-uniE72B: "\4a";
+@cs-icon-uniE7F5: "\4b";
+@cs-icon-uniE7E9: "\4c";
+@cs-icon-uniE700: "\4d";
+@cs-icon-uniE701: "\4e";
+@cs-icon-uniE7D6: "\4f";
+@cs-icon-uniE7D7: "\50";
+@cs-icon-uniE7F4: "\51";
+@cs-icon-uniE7D9: "\41";
+@cs-icon-uniE7F9: "\52";
+@cs-icon-uniE7CF: "\53";
+@cs-icon-uniE7CD: "\54";
+@cs-icon-uniE6AE: "\55";
+@cs-icon-uniE7F7: "\56";
+@cs-icon-uniE7A9: "\58";
+@cs-icon-uniE7C0: "\5a";
+@cs-icon-uniE780: "\61";
+@cs-icon-uniE789: "\62";
+@cs-icon-uniE8B2: "\63";
+@cs-icon-uniE661: "\64";
+@cs-icon-uniE7D2: "\65";
+@cs-icon-uniE751: "\66";
+@cs-icon-uniE6B2: "\67";
+@cs-icon-uniE8DD: "\68";
+@cs-icon-uniE862: "\69";
+@cs-icon-uniE8EE: "\6a";
+@cs-icon-uniE916: "\6b";
+@cs-icon-uniE634: "\6c";
+@cs-icon-uniE648: "\6d";
+@cs-icon-uniE649: "\6e";
+@cs-icon-uniE64A: "\6f";
+@cs-icon-uniE651: "\70";
+@cs-icon-uniE657: "\71";
+@cs-icon-uniE788: "\72";
+@cs-icon-uniE660: "\73";
+@cs-icon-uniE662: "\74";
+@cs-icon-uniE663: "\75";
+@cs-icon-uniE664: "\76";
+@cs-icon-uniE665: "\77";
+@cs-icon-uniE666: "\78";
+@cs-icon-uniE667: "\79";
+@cs-icon-uniE668: "\7a";
+@cs-icon-uniE669: "\31";
+@cs-icon-uniE66A: "\32";
+@cs-icon-uniE66B: "\33";
+@cs-icon-uniE66C: "\34";
+@cs-icon-uniE676: "\35";
+@cs-icon-uniE677: "\36";
+@cs-icon-uniE67B: "\37";
+@cs-icon-uniE67C: "\38";
+@cs-icon-uniE67D: "\39";
+@cs-icon-uniE67E: "\30";
+@cs-icon-uniE67F: "\60";
+@cs-icon-uniE680: "\7e";
+@cs-icon-uniE681: "\21";
+@cs-icon-uniE682: "\40";
+@cs-icon-uniE683: "\23";
+@cs-icon-uniE684: "\24";
+@cs-icon-uniE685: "\25";
+@cs-icon-uniE686: "\5e";
+@cs-icon-uniE689: "\26";
+@cs-icon-uniE68E: "\2a";
+@cs-icon-uniE68F: "\28";
+@cs-icon-uniE690: "\29";
+@cs-icon-uniE691: "\2d";
+@cs-icon-uniE692: "\5f";
+@cs-icon-uniE693: "\3d";
+@cs-icon-uniE694: "\2b";
+@cs-icon-uniE695: "\5b";
+@cs-icon-uniE6A8: "\5d";
+@cs-icon-uniE6A9: "\7b";
+@cs-icon-uniE6AA: "\7d";
+@cs-icon-uniE6AC: "\5c";
+@cs-icon-uniE6AD: "\7c";
+@cs-icon-uniE6AF: "\2c";
+@cs-icon-uniE6B0: "\3c";
+@cs-icon-uniE6B1: "\2e";
+@cs-icon-uniE6B3: "\3e";
+@cs-icon-uniE6B4: "\2f";
+@cs-icon-uniE6B5: "\3f";
+@cs-icon-uniE6B6: "\153";
+@cs-icon-uniE6BB: "\2211";
+@cs-icon-uniE6C7: "\b4";
+@cs-icon-uniE8C0: "\ae";
+@cs-icon-uniE6C8: "\2020";
+@cs-icon-uniE6D0: "\a5";
+@cs-icon-uniE6E5: "\3c0";
+@cs-icon-uniE6EA: "\2018";
+@cs-icon-uniE6EB: "\ab";
+@cs-icon-uniE6EC: "\e5";
+@cs-icon-uniE6EF: "\192";
+@cs-icon-uniE6F5: "\2026";
+@cs-icon-uniE6F7: "\e6";
+@cs-icon-uniE6FA: "\3a9";
+@cs-icon-uniE703: "\2248";
+@cs-icon-uniE70A: "\221a";
+@cs-icon-uniE70B: "\222b";
+@cs-icon-uniE70C: "\2dc";
+@cs-icon-uniE710: "\b5";
+@cs-icon-uniE711: "\2264";
+@cs-icon-uniE713: "\2265";
+@cs-icon-uniE716: "\f7";
+@cs-icon-uniE717: "\152";
+@cs-icon-uniE71B: "\201e";
+@cs-icon-uniE71C: "\2c6";
+@cs-icon-uniE71D: "\2030";
+@cs-icon-uniE728: "\d8";
+@cs-icon-uniE729: "\220f";
+@cs-icon-uniE72A: "\201d";
+@cs-icon-uniE72C: "\2019";
+@cs-icon-uniE72D: "\bb";
+@cs-icon-uniE72E: "\c5";
+@cs-icon-uniE72F: "\cd";
+@cs-icon-uniE74E: "\ce";
+@cs-icon-uniE74F: "\2dd";
+@cs-icon-uniE750: "\d3";
+@cs-icon-uniE752: "\d4";
+@cs-icon-uniE756: "\f8ff";
+@cs-icon-uniE75B: "\d2";
+@cs-icon-uniE75C: "\da";
+@cs-icon-uniE76F: "\c7";
+@cs-icon-uniE770: "\25ca";
+@cs-icon-uniE771: "\131";
+@cs-icon-uniE772: "\e772";
+@cs-icon-uniE773: "\c2";
+@cs-icon-uniE774: "\af";
+@cs-icon-uniE775: "\2d8";
+@cs-icon-uniE776: "\bf";
+@cs-icon-uniE778: "\2044";
+@cs-icon-uniE779: "\20ac";
+@cs-icon-uniE78B: "\2039";
+@cs-icon-uniE78C: "\203a";
+@cs-icon-uniE78D: "\fb01";
+@cs-icon-uniE78E: "\fb02";
+@cs-icon-uniE79E: "\2021";
+@cs-icon-uniE79F: "\b0";
+@cs-icon-uniE7A0: "\b7";
+@cs-icon-uniE7A1: "\201a";
+@cs-icon-uniE7A2: "\2014";
+@cs-icon-uniE7A3: "\b1";
+@cs-icon-uniE7A4: "\2116";
+@cs-icon-uniE7A5: "\20ba";
+@cs-icon-uniE7B1: "\20b9";
+@cs-icon-uniE7B2: "\fffd";
+@cs-icon-uniE7B3: "\2113";
+@cs-icon-uniE7B4: "\2010";
+@cs-icon-uniE7B5: "\4d9";
+@cs-icon-uniE7B6: "\2219";
+@cs-icon-uniE7B7: "\2215";
+@cs-icon-uniE7B8: "\2c9";
+@cs-icon-uniE7B9: "\a0";
+@cs-icon-uniE7BB: "\163";
+@cs-icon-uniE7BD: "\162";
+@cs-icon-uniE7BE: "\1ef9";
+@cs-icon-uniE7BF: "\1ef7";
+@cs-icon-uniE7C1: "\1ef5";
+@cs-icon-uniE7C2: "\1ef1";
+@cs-icon-uniE7C6: "\1eef";
+@cs-icon-uniE7C7: "\1eed";
+@cs-icon-uniE7C8: "\1eeb";
+@cs-icon-uniE7C9: "\1ee9";
+@cs-icon-uniE7CA: "\1ee7";
+@cs-icon-uniE7CB: "\1ee5";
+@cs-icon-uniE7CC: "\1ee3";
+@cs-icon-uniE7CE: "\1ee1";
+@cs-icon-uniE7D5: "\1edf";
+@cs-icon-uniE7D8: "\1edd";
+@cs-icon-uniE7E3: "\1edb";
+@cs-icon-uniE7E4: "\1ed9";
+@cs-icon-uniE7EA: "\1ed7";
+@cs-icon-uniE7EB: "\1ed5";
+@cs-icon-uniE7EC: "\1ed3";
+@cs-icon-uniE7ED: "\1ed1";
+@cs-icon-uniE7EE: "\1ecf";
+@cs-icon-uniE7FF: "\1ecd";
+@cs-icon-uniE80A: "\1ecb";
+@cs-icon-uniE80B: "\1ec9";
+@cs-icon-uniE825: "\1ec7";
+@cs-icon-uniE83D: "\1ec5";
+@cs-icon-uniE85D: "\1ec3";
+@cs-icon-uniE85E: "\1ec1";
+@cs-icon-uniE85F: "\1ebf";
+@cs-icon-uniE860: "\1ebd";
+@cs-icon-uniE86F: "\1ebb";
+@cs-icon-uniE875: "\1eb9";
+@cs-icon-uniE877: "\1eb7";
+@cs-icon-uniE880: "\1eb5";
+@cs-icon-uniE881: "\1eb3";
+@cs-icon-uniE896: "\1eb1";
+@cs-icon-uniE897: "\1eaf";
+@cs-icon-uniE898: "\1ead";
+@cs-icon-uniE8A0: "\1eab";
+@cs-icon-uniE8A1: "\1ea9";
+@cs-icon-uniE8A4: "\1ea7";
+@cs-icon-uniE8A7: "\1ea5";
+@cs-icon-uniE8AC: "\1ea3";
+@cs-icon-uniE8AE: "\1ea1";
+@cs-icon-uniE8AF: "\1ef8";
+@cs-icon-uniE8B0: "\1ef6";
+@cs-icon-uniE8B3: "\1ef4";
+@cs-icon-uniE8B4: "\1ef0";
+@cs-icon-uniE8B5: "\1eee";
+@cs-icon-uniE8B8: "\1eec";
+@cs-icon-uniE8B9: "\1eea";
+@cs-icon-uniE8BB: "\1ee8";
+@cs-icon-uniE8C1: "\1ee6";
+@cs-icon-uniE8C3: "\1ee4";
+@cs-icon-uniE8C7: "\1ee2";
+@cs-icon-uniE8C8: "\1ee0";
+@cs-icon-uniE8CA: "\1ede";
+@cs-icon-uniE8CB: "\1edc";
+@cs-icon-uniE8CD: "\1eda";
+@cs-icon-uniE8CF: "\1ed8";
+@cs-icon-uniE8D0: "\1ed6";
+@cs-icon-uniE8D2: "\1ed4";
+@cs-icon-uniE8D3: "\1ed2";
+@cs-icon-uniE8D7: "\1ed0";
+@cs-icon-uniE8D8: "\1ece";
+@cs-icon-uniE8D9: "\1ecc";
+@cs-icon-uniE8DA: "\1eca";
+@cs-icon-uniE8DB: "\1ec8";
+@cs-icon-uniE8DC: "\1ec6";
+@cs-icon-uniE8E3: "\1ec4";
+@cs-icon-uniE8E9: "\1ec2";
+@cs-icon-uniE8EA: "\1ec0";
+@cs-icon-uniE8EB: "\1ebe";
+@cs-icon-uniE8EC: "\1ebc";
+@cs-icon-uniE8ED: "\1eba";
+@cs-icon-uniE8F9: "\1eb8";
+@cs-icon-uniE8FC: "\1eb6";
+@cs-icon-uniE8FF: "\1eb4";
+@cs-icon-uniE903: "\1eb2";
+@cs-icon-uniE906: "\1eb0";
+@cs-icon-uniE90A: "\1eae";
+@cs-icon-uniE90B: "\1eac";
+@cs-icon-uniE90C: "\1eaa";
+@cs-icon-uniE90D: "\1ea8";
+@cs-icon-uniE90E: "\1ea6";
+@cs-icon-uniE90F: "\1ea4";
+@cs-icon-uniE913: "\1ea2";
+@cs-icon-uniE917: "\1ea0";
+@cs-icon-uniE91B: "\1b0";
+@cs-icon-uniE91C: "\1a1";
+@cs-icon-uniE91D: "\1af";
+@cs-icon-uniE91E: "\1a0";
+@cs-icon-uniE91F: "\491";
+@cs-icon-uniE920: "\490";
+@cs-icon-uniE921: "\45f";
+@cs-icon-uniE939: "\45e";
+@cs-icon-uniE941: "\45c";
+@cs-icon-uniE946: "\45b";
+@cs-icon-uniE94A: "\45a";
+@cs-icon-uniE94D: "\459";
+@cs-icon-uniE94E: "\458";
+@cs-icon-uniE94F: "\457";
+@cs-icon-uniE950: "\456";
+@cs-icon-uniE951: "\455";
+@cs-icon-pdf: "\a1";
+@cs-icon-doc: "\a2";
+@cs-icon-excel: "\a3";
+@cs-icon-box: "\d7";
+@cs-icon-not-interested: "\e600";
+
+.@{csicon-css-prefix}-friends:before { content: @cs-icon-friends; }
+.@{csicon-css-prefix}-speech:before { content: @cs-icon-speech; }
+.@{csicon-css-prefix}-trash:before { content: @cs-icon-trash; }
+.@{csicon-css-prefix}-wifi:before { content: @cs-icon-wifi; }
+.@{csicon-css-prefix}-line-graph:before { content: @cs-icon-line-graph; }
+.@{csicon-css-prefix}-bar-chart:before { content: @cs-icon-bar-chart; }
+.@{csicon-css-prefix}-link:before { content: @cs-icon-link; }
+.@{csicon-css-prefix}-flag:before { content: @cs-icon-flag; }
+.@{csicon-css-prefix}-uniE749:before { content: @cs-icon-uniE749; }
+.@{csicon-css-prefix}-uniE763:before { content: @cs-icon-uniE763; }
+.@{csicon-css-prefix}-uniE764:before { content: @cs-icon-uniE764; }
+.@{csicon-css-prefix}-uniE7E2:before { content: @cs-icon-uniE7E2; }
+.@{csicon-css-prefix}-uniE755:before { content: @cs-icon-uniE755; }
+.@{csicon-css-prefix}-uniE6AB:before { content: @cs-icon-uniE6AB; }
+.@{csicon-css-prefix}-uniE724:before { content: @cs-icon-uniE724; }
+.@{csicon-css-prefix}-uniE72B:before { content: @cs-icon-uniE72B; }
+.@{csicon-css-prefix}-uniE7F5:before { content: @cs-icon-uniE7F5; }
+.@{csicon-css-prefix}-uniE7E9:before { content: @cs-icon-uniE7E9; }
+.@{csicon-css-prefix}-uniE700:before { content: @cs-icon-uniE700; }
+.@{csicon-css-prefix}-uniE701:before { content: @cs-icon-uniE701; }
+.@{csicon-css-prefix}-uniE7D6:before { content: @cs-icon-uniE7D6; }
+.@{csicon-css-prefix}-uniE7D7:before { content: @cs-icon-uniE7D7; }
+.@{csicon-css-prefix}-uniE7F4:before { content: @cs-icon-uniE7F4; }
+.@{csicon-css-prefix}-uniE7D9:before { content: @cs-icon-uniE7D9; }
+.@{csicon-css-prefix}-uniE7F9:before { content: @cs-icon-uniE7F9; }
+.@{csicon-css-prefix}-uniE7CF:before { content: @cs-icon-uniE7CF; }
+.@{csicon-css-prefix}-uniE7CD:before { content: @cs-icon-uniE7CD; }
+.@{csicon-css-prefix}-uniE6AE:before { content: @cs-icon-uniE6AE; }
+.@{csicon-css-prefix}-uniE7F7:before { content: @cs-icon-uniE7F7; }
+.@{csicon-css-prefix}-uniE7A9:before { content: @cs-icon-uniE7A9; }
+.@{csicon-css-prefix}-uniE7C0:before { content: @cs-icon-uniE7C0; }
+.@{csicon-css-prefix}-uniE780:before { content: @cs-icon-uniE780; }
+.@{csicon-css-prefix}-uniE789:before { content: @cs-icon-uniE789; }
+.@{csicon-css-prefix}-uniE8B2:before { content: @cs-icon-uniE8B2; }
+.@{csicon-css-prefix}-uniE661:before { content: @cs-icon-uniE661; }
+.@{csicon-css-prefix}-uniE7D2:before { content: @cs-icon-uniE7D2; }
+.@{csicon-css-prefix}-uniE751:before { content: @cs-icon-uniE751; }
+.@{csicon-css-prefix}-uniE6B2:before { content: @cs-icon-uniE6B2; }
+.@{csicon-css-prefix}-uniE8DD:before { content: @cs-icon-uniE8DD; }
+.@{csicon-css-prefix}-uniE862:before { content: @cs-icon-uniE862; }
+.@{csicon-css-prefix}-uniE8EE:before { content: @cs-icon-uniE8EE; }
+.@{csicon-css-prefix}-uniE916:before { content: @cs-icon-uniE916; }
+.@{csicon-css-prefix}-uniE634:before { content: @cs-icon-uniE634; }
+.@{csicon-css-prefix}-uniE648:before { content: @cs-icon-uniE648; }
+.@{csicon-css-prefix}-uniE649:before { content: @cs-icon-uniE649; }
+.@{csicon-css-prefix}-uniE64A:before { content: @cs-icon-uniE64A; }
+.@{csicon-css-prefix}-uniE651:before { content: @cs-icon-uniE651; }
+.@{csicon-css-prefix}-uniE657:before { content: @cs-icon-uniE657; }
+.@{csicon-css-prefix}-uniE788:before { content: @cs-icon-uniE788; }
+.@{csicon-css-prefix}-uniE660:before { content: @cs-icon-uniE660; }
+.@{csicon-css-prefix}-uniE662:before { content: @cs-icon-uniE662; }
+.@{csicon-css-prefix}-uniE663:before { content: @cs-icon-uniE663; }
+.@{csicon-css-prefix}-uniE664:before { content: @cs-icon-uniE664; }
+.@{csicon-css-prefix}-uniE665:before { content: @cs-icon-uniE665; }
+.@{csicon-css-prefix}-uniE666:before { content: @cs-icon-uniE666; }
+.@{csicon-css-prefix}-uniE667:before { content: @cs-icon-uniE667; }
+.@{csicon-css-prefix}-uniE668:before { content: @cs-icon-uniE668; }
+.@{csicon-css-prefix}-uniE669:before { content: @cs-icon-uniE669; }
+.@{csicon-css-prefix}-uniE66A:before { content: @cs-icon-uniE66A; }
+.@{csicon-css-prefix}-uniE66B:before { content: @cs-icon-uniE66B; }
+.@{csicon-css-prefix}-uniE66C:before { content: @cs-icon-uniE66C; }
+.@{csicon-css-prefix}-uniE676:before { content: @cs-icon-uniE676; }
+.@{csicon-css-prefix}-uniE677:before { content: @cs-icon-uniE677; }
+.@{csicon-css-prefix}-uniE67B:before { content: @cs-icon-uniE67B; }
+.@{csicon-css-prefix}-uniE67C:before { content: @cs-icon-uniE67C; }
+.@{csicon-css-prefix}-uniE67D:before { content: @cs-icon-uniE67D; }
+.@{csicon-css-prefix}-uniE67E:before { content: @cs-icon-uniE67E; }
+.@{csicon-css-prefix}-uniE67F:before { content: @cs-icon-uniE67F; }
+.@{csicon-css-prefix}-uniE680:before { content: @cs-icon-uniE680; }
+.@{csicon-css-prefix}-uniE681:before { content: @cs-icon-uniE681; }
+.@{csicon-css-prefix}-uniE682:before { content: @cs-icon-uniE682; }
+.@{csicon-css-prefix}-uniE683:before { content: @cs-icon-uniE683; }
+.@{csicon-css-prefix}-uniE684:before { content: @cs-icon-uniE684; }
+.@{csicon-css-prefix}-uniE685:before { content: @cs-icon-uniE685; }
+.@{csicon-css-prefix}-uniE686:before { content: @cs-icon-uniE686; }
+.@{csicon-css-prefix}-uniE689:before { content: @cs-icon-uniE689; }
+.@{csicon-css-prefix}-uniE68E:before { content: @cs-icon-uniE68E; }
+.@{csicon-css-prefix}-uniE68F:before { content: @cs-icon-uniE68F; }
+.@{csicon-css-prefix}-uniE690:before { content: @cs-icon-uniE690; }
+.@{csicon-css-prefix}-uniE691:before { content: @cs-icon-uniE691; }
+.@{csicon-css-prefix}-uniE692:before { content: @cs-icon-uniE692; }
+.@{csicon-css-prefix}-uniE693:before { content: @cs-icon-uniE693; }
+.@{csicon-css-prefix}-uniE694:before { content: @cs-icon-uniE694; }
+.@{csicon-css-prefix}-uniE695:before { content: @cs-icon-uniE695; }
+.@{csicon-css-prefix}-uniE6A8:before { content: @cs-icon-uniE6A8; }
+.@{csicon-css-prefix}-uniE6A9:before { content: @cs-icon-uniE6A9; }
+.@{csicon-css-prefix}-uniE6AA:before { content: @cs-icon-uniE6AA; }
+.@{csicon-css-prefix}-uniE6AC:before { content: @cs-icon-uniE6AC; }
+.@{csicon-css-prefix}-uniE6AD:before { content: @cs-icon-uniE6AD; }
+.@{csicon-css-prefix}-uniE6AF:before { content: @cs-icon-uniE6AF; }
+.@{csicon-css-prefix}-uniE6B0:before { content: @cs-icon-uniE6B0; }
+.@{csicon-css-prefix}-uniE6B1:before { content: @cs-icon-uniE6B1; }
+.@{csicon-css-prefix}-uniE6B3:before { content: @cs-icon-uniE6B3; }
+.@{csicon-css-prefix}-uniE6B4:before { content: @cs-icon-uniE6B4; }
+.@{csicon-css-prefix}-uniE6B5:before { content: @cs-icon-uniE6B5; }
+.@{csicon-css-prefix}-uniE6B6:before { content: @cs-icon-uniE6B6; }
+.@{csicon-css-prefix}-uniE6BB:before { content: @cs-icon-uniE6BB; }
+.@{csicon-css-prefix}-uniE6C7:before { content: @cs-icon-uniE6C7; }
+.@{csicon-css-prefix}-uniE8C0:before { content: @cs-icon-uniE8C0; }
+.@{csicon-css-prefix}-uniE6C8:before { content: @cs-icon-uniE6C8; }
+.@{csicon-css-prefix}-uniE6D0:before { content: @cs-icon-uniE6D0; }
+.@{csicon-css-prefix}-uniE6E5:before { content: @cs-icon-uniE6E5; }
+.@{csicon-css-prefix}-uniE6EA:before { content: @cs-icon-uniE6EA; }
+.@{csicon-css-prefix}-uniE6EB:before { content: @cs-icon-uniE6EB; }
+.@{csicon-css-prefix}-uniE6EC:before { content: @cs-icon-uniE6EC; }
+.@{csicon-css-prefix}-uniE6EF:before { content: @cs-icon-uniE6EF; }
+.@{csicon-css-prefix}-uniE6F5:before { content: @cs-icon-uniE6F5; }
+.@{csicon-css-prefix}-uniE6F7:before { content: @cs-icon-uniE6F7; }
+.@{csicon-css-prefix}-uniE6FA:before { content: @cs-icon-uniE6FA; }
+.@{csicon-css-prefix}-uniE703:before { content: @cs-icon-uniE703; }
+.@{csicon-css-prefix}-uniE70A:before { content: @cs-icon-uniE70A; }
+.@{csicon-css-prefix}-uniE70B:before { content: @cs-icon-uniE70B; }
+.@{csicon-css-prefix}-uniE70C:before { content: @cs-icon-uniE70C; }
+.@{csicon-css-prefix}-uniE710:before { content: @cs-icon-uniE710; }
+.@{csicon-css-prefix}-uniE711:before { content: @cs-icon-uniE711; }
+.@{csicon-css-prefix}-uniE713:before { content: @cs-icon-uniE713; }
+.@{csicon-css-prefix}-uniE716:before { content: @cs-icon-uniE716; }
+.@{csicon-css-prefix}-uniE717:before { content: @cs-icon-uniE717; }
+.@{csicon-css-prefix}-uniE71B:before { content: @cs-icon-uniE71B; }
+.@{csicon-css-prefix}-uniE71C:before { content: @cs-icon-uniE71C; }
+.@{csicon-css-prefix}-uniE71D:before { content: @cs-icon-uniE71D; }
+.@{csicon-css-prefix}-uniE728:before { content: @cs-icon-uniE728; }
+.@{csicon-css-prefix}-uniE729:before { content: @cs-icon-uniE729; }
+.@{csicon-css-prefix}-uniE72A:before { content: @cs-icon-uniE72A; }
+.@{csicon-css-prefix}-uniE72C:before { content: @cs-icon-uniE72C; }
+.@{csicon-css-prefix}-uniE72D:before { content: @cs-icon-uniE72D; }
+.@{csicon-css-prefix}-uniE72E:before { content: @cs-icon-uniE72E; }
+.@{csicon-css-prefix}-uniE72F:before { content: @cs-icon-uniE72F; }
+.@{csicon-css-prefix}-uniE74E:before { content: @cs-icon-uniE74E; }
+.@{csicon-css-prefix}-uniE74F:before { content: @cs-icon-uniE74F; }
+.@{csicon-css-prefix}-uniE750:before { content: @cs-icon-uniE750; }
+.@{csicon-css-prefix}-uniE752:before { content: @cs-icon-uniE752; }
+.@{csicon-css-prefix}-uniE756:before { content: @cs-icon-uniE756; }
+.@{csicon-css-prefix}-uniE75B:before { content: @cs-icon-uniE75B; }
+.@{csicon-css-prefix}-uniE75C:before { content: @cs-icon-uniE75C; }
+.@{csicon-css-prefix}-uniE76F:before { content: @cs-icon-uniE76F; }
+.@{csicon-css-prefix}-uniE770:before { content: @cs-icon-uniE770; }
+.@{csicon-css-prefix}-uniE771:before { content: @cs-icon-uniE771; }
+.@{csicon-css-prefix}-uniE772:before { content: @cs-icon-uniE772; }
+.@{csicon-css-prefix}-uniE773:before { content: @cs-icon-uniE773; }
+.@{csicon-css-prefix}-uniE774:before { content: @cs-icon-uniE774; }
+.@{csicon-css-prefix}-uniE775:before { content: @cs-icon-uniE775; }
+.@{csicon-css-prefix}-uniE776:before { content: @cs-icon-uniE776; }
+.@{csicon-css-prefix}-uniE778:before { content: @cs-icon-uniE778; }
+.@{csicon-css-prefix}-uniE779:before { content: @cs-icon-uniE779; }
+.@{csicon-css-prefix}-uniE78B:before { content: @cs-icon-uniE78B; }
+.@{csicon-css-prefix}-uniE78C:before { content: @cs-icon-uniE78C; }
+.@{csicon-css-prefix}-uniE78D:before { content: @cs-icon-uniE78D; }
+.@{csicon-css-prefix}-uniE78E:before { content: @cs-icon-uniE78E; }
+.@{csicon-css-prefix}-uniE79E:before { content: @cs-icon-uniE79E; }
+.@{csicon-css-prefix}-uniE79F:before { content: @cs-icon-uniE79F; }
+.@{csicon-css-prefix}-uniE7A0:before { content: @cs-icon-uniE7A0; }
+.@{csicon-css-prefix}-uniE7A1:before { content: @cs-icon-uniE7A1; }
+.@{csicon-css-prefix}-uniE7A2:before { content: @cs-icon-uniE7A2; }
+.@{csicon-css-prefix}-uniE7A3:before { content: @cs-icon-uniE7A3; }
+.@{csicon-css-prefix}-uniE7A4:before { content: @cs-icon-uniE7A4; }
+.@{csicon-css-prefix}-uniE7A5:before { content: @cs-icon-uniE7A5; }
+.@{csicon-css-prefix}-uniE7B1:before { content: @cs-icon-uniE7B1; }
+.@{csicon-css-prefix}-uniE7B2:before { content: @cs-icon-uniE7B2; }
+.@{csicon-css-prefix}-uniE7B3:before { content: @cs-icon-uniE7B3; }
+.@{csicon-css-prefix}-uniE7B4:before { content: @cs-icon-uniE7B4; }
+.@{csicon-css-prefix}-uniE7B5:before { content: @cs-icon-uniE7B5; }
+.@{csicon-css-prefix}-uniE7B6:before { content: @cs-icon-uniE7B6; }
+.@{csicon-css-prefix}-uniE7B7:before { content: @cs-icon-uniE7B7; }
+.@{csicon-css-prefix}-uniE7B8:before { content: @cs-icon-uniE7B8; }
+.@{csicon-css-prefix}-uniE7B9:before { content: @cs-icon-uniE7B9; }
+.@{csicon-css-prefix}-uniE7BB:before { content: @cs-icon-uniE7BB; }
+.@{csicon-css-prefix}-uniE7BD:before { content: @cs-icon-uniE7BD; }
+.@{csicon-css-prefix}-uniE7BE:before { content: @cs-icon-uniE7BE; }
+.@{csicon-css-prefix}-uniE7BF:before { content: @cs-icon-uniE7BF; }
+.@{csicon-css-prefix}-uniE7C1:before { content: @cs-icon-uniE7C1; }
+.@{csicon-css-prefix}-uniE7C2:before { content: @cs-icon-uniE7C2; }
+.@{csicon-css-prefix}-uniE7C6:before { content: @cs-icon-uniE7C6; }
+.@{csicon-css-prefix}-uniE7C7:before { content: @cs-icon-uniE7C7; }
+.@{csicon-css-prefix}-uniE7C8:before { content: @cs-icon-uniE7C8; }
+.@{csicon-css-prefix}-uniE7C9:before { content: @cs-icon-uniE7C9; }
+.@{csicon-css-prefix}-uniE7CA:before { content: @cs-icon-uniE7CA; }
+.@{csicon-css-prefix}-uniE7CB:before { content: @cs-icon-uniE7CB; }
+.@{csicon-css-prefix}-uniE7CC:before { content: @cs-icon-uniE7CC; }
+.@{csicon-css-prefix}-uniE7CE:before { content: @cs-icon-uniE7CE; }
+.@{csicon-css-prefix}-uniE7D5:before { content: @cs-icon-uniE7D5; }
+.@{csicon-css-prefix}-uniE7D8:before { content: @cs-icon-uniE7D8; }
+.@{csicon-css-prefix}-uniE7E3:before { content: @cs-icon-uniE7E3; }
+.@{csicon-css-prefix}-uniE7E4:before { content: @cs-icon-uniE7E4; }
+.@{csicon-css-prefix}-uniE7EA:before { content: @cs-icon-uniE7EA; }
+.@{csicon-css-prefix}-uniE7EB:before { content: @cs-icon-uniE7EB; }
+.@{csicon-css-prefix}-uniE7EC:before { content: @cs-icon-uniE7EC; }
+.@{csicon-css-prefix}-uniE7ED:before { content: @cs-icon-uniE7ED; }
+.@{csicon-css-prefix}-uniE7EE:before { content: @cs-icon-uniE7EE; }
+.@{csicon-css-prefix}-uniE7FF:before { content: @cs-icon-uniE7FF; }
+.@{csicon-css-prefix}-uniE80A:before { content: @cs-icon-uniE80A; }
+.@{csicon-css-prefix}-uniE80B:before { content: @cs-icon-uniE80B; }
+.@{csicon-css-prefix}-uniE825:before { content: @cs-icon-uniE825; }
+.@{csicon-css-prefix}-uniE83D:before { content: @cs-icon-uniE83D; }
+.@{csicon-css-prefix}-uniE85D:before { content: @cs-icon-uniE85D; }
+.@{csicon-css-prefix}-uniE85E:before { content: @cs-icon-uniE85E; }
+.@{csicon-css-prefix}-uniE85F:before { content: @cs-icon-uniE85F; }
+.@{csicon-css-prefix}-uniE860:before { content: @cs-icon-uniE860; }
+.@{csicon-css-prefix}-uniE86F:before { content: @cs-icon-uniE86F; }
+.@{csicon-css-prefix}-uniE875:before { content: @cs-icon-uniE875; }
+.@{csicon-css-prefix}-uniE877:before { content: @cs-icon-uniE877; }
+.@{csicon-css-prefix}-uniE880:before { content: @cs-icon-uniE880; }
+.@{csicon-css-prefix}-uniE881:before { content: @cs-icon-uniE881; }
+.@{csicon-css-prefix}-uniE896:before { content: @cs-icon-uniE896; }
+.@{csicon-css-prefix}-uniE897:before { content: @cs-icon-uniE897; }
+.@{csicon-css-prefix}-uniE898:before { content: @cs-icon-uniE898; }
+.@{csicon-css-prefix}-uniE8A0:before { content: @cs-icon-uniE8A0; }
+.@{csicon-css-prefix}-uniE8A1:before { content: @cs-icon-uniE8A1; }
+.@{csicon-css-prefix}-uniE8A4:before { content: @cs-icon-uniE8A4; }
+.@{csicon-css-prefix}-uniE8A7:before { content: @cs-icon-uniE8A7; }
+.@{csicon-css-prefix}-uniE8AC:before { content: @cs-icon-uniE8AC; }
+.@{csicon-css-prefix}-uniE8AE:before { content: @cs-icon-uniE8AE; }
+.@{csicon-css-prefix}-uniE8AF:before { content: @cs-icon-uniE8AF; }
+.@{csicon-css-prefix}-uniE8B0:before { content: @cs-icon-uniE8B0; }
+.@{csicon-css-prefix}-uniE8B3:before { content: @cs-icon-uniE8B3; }
+.@{csicon-css-prefix}-uniE8B4:before { content: @cs-icon-uniE8B4; }
+.@{csicon-css-prefix}-uniE8B5:before { content: @cs-icon-uniE8B5; }
+.@{csicon-css-prefix}-uniE8B8:before { content: @cs-icon-uniE8B8; }
+.@{csicon-css-prefix}-uniE8B9:before { content: @cs-icon-uniE8B9; }
+.@{csicon-css-prefix}-uniE8BB:before { content: @cs-icon-uniE8BB; }
+.@{csicon-css-prefix}-uniE8C1:before { content: @cs-icon-uniE8C1; }
+.@{csicon-css-prefix}-uniE8C3:before { content: @cs-icon-uniE8C3; }
+.@{csicon-css-prefix}-uniE8C7:before { content: @cs-icon-uniE8C7; }
+.@{csicon-css-prefix}-uniE8C8:before { content: @cs-icon-uniE8C8; }
+.@{csicon-css-prefix}-uniE8CA:before { content: @cs-icon-uniE8CA; }
+.@{csicon-css-prefix}-uniE8CB:before { content: @cs-icon-uniE8CB; }
+.@{csicon-css-prefix}-uniE8CD:before { content: @cs-icon-uniE8CD; }
+.@{csicon-css-prefix}-uniE8CF:before { content: @cs-icon-uniE8CF; }
+.@{csicon-css-prefix}-uniE8D0:before { content: @cs-icon-uniE8D0; }
+.@{csicon-css-prefix}-uniE8D2:before { content: @cs-icon-uniE8D2; }
+.@{csicon-css-prefix}-uniE8D3:before { content: @cs-icon-uniE8D3; }
+.@{csicon-css-prefix}-uniE8D7:before { content: @cs-icon-uniE8D7; }
+.@{csicon-css-prefix}-uniE8D8:before { content: @cs-icon-uniE8D8; }
+.@{csicon-css-prefix}-uniE8D9:before { content: @cs-icon-uniE8D9; }
+.@{csicon-css-prefix}-uniE8DA:before { content: @cs-icon-uniE8DA; }
+.@{csicon-css-prefix}-uniE8DB:before { content: @cs-icon-uniE8DB; }
+.@{csicon-css-prefix}-uniE8DC:before { content: @cs-icon-uniE8DC; }
+.@{csicon-css-prefix}-uniE8E3:before { content: @cs-icon-uniE8E3; }
+.@{csicon-css-prefix}-uniE8E9:before { content: @cs-icon-uniE8E9; }
+.@{csicon-css-prefix}-uniE8EA:before { content: @cs-icon-uniE8EA; }
+.@{csicon-css-prefix}-uniE8EB:before { content: @cs-icon-uniE8EB; }
+.@{csicon-css-prefix}-uniE8EC:before { content: @cs-icon-uniE8EC; }
+.@{csicon-css-prefix}-uniE8ED:before { content: @cs-icon-uniE8ED; }
+.@{csicon-css-prefix}-uniE8F9:before { content: @cs-icon-uniE8F9; }
+.@{csicon-css-prefix}-uniE8FC:before { content: @cs-icon-uniE8FC; }
+.@{csicon-css-prefix}-uniE8FF:before { content: @cs-icon-uniE8FF; }
+.@{csicon-css-prefix}-uniE903:before { content: @cs-icon-uniE903; }
+.@{csicon-css-prefix}-uniE906:before { content: @cs-icon-uniE906; }
+.@{csicon-css-prefix}-uniE90A:before { content: @cs-icon-uniE90A; }
+.@{csicon-css-prefix}-uniE90B:before { content: @cs-icon-uniE90B; }
+.@{csicon-css-prefix}-uniE90C:before { content: @cs-icon-uniE90C; }
+.@{csicon-css-prefix}-uniE90D:before { content: @cs-icon-uniE90D; }
+.@{csicon-css-prefix}-uniE90E:before { content: @cs-icon-uniE90E; }
+.@{csicon-css-prefix}-uniE90F:before { content: @cs-icon-uniE90F; }
+.@{csicon-css-prefix}-uniE913:before { content: @cs-icon-uniE913; }
+.@{csicon-css-prefix}-uniE917:before { content: @cs-icon-uniE917; }
+.@{csicon-css-prefix}-uniE91B:before { content: @cs-icon-uniE91B; }
+.@{csicon-css-prefix}-uniE91C:before { content: @cs-icon-uniE91C; }
+.@{csicon-css-prefix}-uniE91D:before { content: @cs-icon-uniE91D; }
+.@{csicon-css-prefix}-uniE91E:before { content: @cs-icon-uniE91E; }
+.@{csicon-css-prefix}-uniE91F:before { content: @cs-icon-uniE91F; }
+.@{csicon-css-prefix}-uniE920:before { content: @cs-icon-uniE920; }
+.@{csicon-css-prefix}-uniE921:before { content: @cs-icon-uniE921; }
+.@{csicon-css-prefix}-uniE939:before { content: @cs-icon-uniE939; }
+.@{csicon-css-prefix}-uniE941:before { content: @cs-icon-uniE941; }
+.@{csicon-css-prefix}-uniE946:before { content: @cs-icon-uniE946; }
+.@{csicon-css-prefix}-uniE94A:before { content: @cs-icon-uniE94A; }
+.@{csicon-css-prefix}-uniE94D:before { content: @cs-icon-uniE94D; }
+.@{csicon-css-prefix}-uniE94E:before { content: @cs-icon-uniE94E; }
+.@{csicon-css-prefix}-uniE94F:before { content: @cs-icon-uniE94F; }
+.@{csicon-css-prefix}-uniE950:before { content: @cs-icon-uniE950; }
+.@{csicon-css-prefix}-uniE951:before { content: @cs-icon-uniE951; }
+.@{csicon-css-prefix}-pdf:before{ content: @cs-icon-pdf; }
+.@{csicon-css-prefix}-doc:before{ content: @cs-icon-doc; }
+.@{csicon-css-prefix}-excel:before{ content: @cs-icon-excel; }
+.@{csicon-css-prefix}-box:before{ content: @cs-icon-box; }
+.@{csicon-css-prefix}-not-interested:before{ content: @cs-icon-not-interested; }
